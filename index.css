@@ -1,0 +1,116 @@
+body
+{
+    margin: 0%;
+    line-height: 2;
+    font-size: 120%;
+}
+
+h1
+{
+    font-family: 'Averia Serif Libre', cursive;
+    background-color: none;
+    text-decoration: underline dashed orangered;
+    color: peru;
+}
+
+h2
+{
+    font-family: cursive;
+    background-color: pink;
+}
+
+hr
+{
+    border: dotted red 4px;
+    border-bottom: none;
+    width: 6%;
+    margin: 40px 10px;
+}
+
+a
+{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: yellow;
+}
+
+.hr
+{
+    border: dotted lightslategray 6px;
+    border-bottom: none;
+    width: 30%;
+    margin: 40px 30px;
+}
+
+.about
+{
+    background-color: lightblue;
+    padding: 100px;
+    margin: 0%;
+}
+
+.college-name
+{
+    padding: 30px;
+}
+
+.college-profile
+{
+    text-align: left;
+}
+
+.inner-hyperlink
+{
+    background-color: chartreuse;
+    padding: 50px;
+}
+
+.outer-hyperlink
+{
+    background-color: forestgreen;
+    padding: 50px;
+    text-decoration: none white;
+}
+
+#table:hover
+{
+    color: red;
+    background-color: black;
+}
+
+
+.submit
+{
+         background: #3D94F6;
+        background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: Garamond;
+        font-size: 32px;
+        font-weight: 100;
+        padding: 7px;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #337FED 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .submit:hover
+    {
+        color: white;
+    }
